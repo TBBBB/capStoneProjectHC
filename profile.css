@@ -1,0 +1,53 @@
+.profile_picture {
+    border-radius: 5px;
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(to right, #ffccff, #ff80ff);
+
+    .cat {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+        }
+
+        .font_style {
+            font-family: cursive;
+        }
+    }
+}
+
+.profile_tabs {
+
+    .nav-tabs {
+        border: 3px solid #ff33ff;
+        border-radius: 5px;
+
+        .nav-item {
+            .nav-link {
+                margin: 0;
+            }
+
+            .nav-link.active {
+                background-color: #e061e0 !important;
+                margin: 0;
+            }
+        }
+    }
+
+    .text-bold {
+        font-weight: bold;
+    }
+
+    .tab-content {
+        .tab-pane {
+            padding: 10px;
+            border: 2px solid #a6a6a6;
+        }
+    }
+}
